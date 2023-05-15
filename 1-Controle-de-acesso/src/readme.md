@@ -1,12 +1,12 @@
 # Descrição do desafio: Sistema de Controle de Acesso
 
-O objetivo do desafio é desenvolver um sistema que deve apresentar um relatório que divida as pessoas que acessaram o estabelecimento em três categorias:
+O objetivo do desafio foi desenvolver um sistema que deveria apresentar um relatório que divide as pessoas que acessaram o estabelecimento em três categorias:
 
 1. Pessoas menores de 18 anos,
 2. Pessoas adultas (entre 18 e 49 anos), e
 3. Pessoas a partir de 50 anos.
 
-Esse sistema deve apresentar um menu, no console, indicando a opção de acessar o estabelecimento e a opção de finalizar o sistema e mostrar um relatório. O fluxo do sistema é definido seguindo duas etapas principais que devem ser executadas na seguinte ordem:
+Esse sistema apresenta um menu, no console, indicando a opção de acessar o estabelecimento e a opção de finalizar o sistema e mostrar um relatório. O fluxo do sistema é definido seguindo duas etapas principais que são executadas na seguinte ordem:
 
 1. **Inserir idade de pessoa cliente no sistema:** essa etapa se repete até que a opção de finalizar o sistema seja escolhida. A idade das pessoas clientes foram armazenadas em um array de tamanho dinâmico, já que não sabemos quantas pessoas clientes chegarão ao estabelecimento. Utilizei a classe `ArrayList` do Java para a criação e manipulação de arrays de tamanho dinâmico. Mais informações você pode consultar o site da [W3Schools](https://www.w3schools.com/java/java_arraylist.asp) ou [JavaPoint](https://www.javatpoint.com/java-arraylist), ou então verificar a documentação da Oracle.
 
